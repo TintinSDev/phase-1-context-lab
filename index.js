@@ -1,4 +1,29 @@
 /* Your Code Here */
+// Your code here
+const createEmployeeRecord = {
+    firstName: 'Gray',
+    familyName: 'Worm',
+    title: 'Security',
+    payPerHour: '1',
+    timeInEvents: '',
+    timeOutEvents: ''
+
+}
+
+function createEmployeeRecords(employees) { 
+    for (let array of employees) {
+        return createEmployeeRecord(employees[array]);
+    }
+
+}
+function createTimeInEvent(employee, dateStamp) { 
+    
+
+}
+function createTimeOutEvent(employee, dateStamp) {
+    
+
+}
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
